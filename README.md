@@ -9,5 +9,6 @@
 
 ---
 
-- ##### [Binary Search Algorithm](src/main/java/binary_search) - [Binary Search Tests](src/test/java/binary_search/BinarySearchTest.java)
-- ##### [Search and Insertion Position](src/main/java/search_insertion_position) - [Search and Insertion Position Tests](src/test/java/search_insertion_position/SearchInsertionPositionTest.java)
+- ##### [Binary Search Algorithm](src/main/java/binary_search) - [Tests](src/test/java/binary_search/BinarySearchTest.java)
+- ##### [Search and Insertion Position](src/main/java/search_insertion_position) - [Tests](src/test/java/search_insertion_position/SearchInsertionPositionTest.java)
+- ##### [Squares of a Sorted Array](src/main/java/squares_of_a_sorted_array) - [Tests](src/test/java/squares_of_a_sorted_array/SquaresOfASortedArrayTest.java)
