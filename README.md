@@ -19,10 +19,6 @@
 
 <br />
 
-<div style="width: 500px; margin: auto;">
+<img src="images/junit5.png" width="600px" />
 
-![](images/junit5.png)
-
-![](images/leetcode.png)
-
-</div>
+<img src="images/leetcode.png" width="600px" />
