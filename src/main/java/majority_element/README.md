@@ -13,3 +13,7 @@
   - Output: 2
 
 #### Learn more about Boyer-Moore Voting Algorithm solution
+
+Since the majority element is the element that appears more than ```n / 2``` times. Boyce-Moore Voting Algorith can be applied without any problem. However, in a scenario that majority element does not appear more than ```n / 2``` it fails.
+
+Example for example, ```int[] nums = { 1, 1, 1, 10, 10, 10, 10, 3, 10, 1, 10 }```. It would return ```1```.

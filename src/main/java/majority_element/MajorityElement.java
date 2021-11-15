@@ -7,6 +7,7 @@ import java.util.Map;
 public class MajorityElement {
 
     public int getMajorityElement(int[] nums) {
+        /*
         Map<Integer, Integer> mapOfValues = new HashMap<>();
 
         for (int num : nums) {
@@ -27,6 +28,22 @@ public class MajorityElement {
         }
 
         return -1;
+        */
+
+        // Using Boyer-Moore Voting Algorithm.
+        // Faster, but element has to appear more than n / 2 times
+        int count = 0;
+        Integer candidate = null;
+
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+
+            count += (num == candidate) ? 1 : -1;
+        }
+
+        return candidate;
     }
 
 }

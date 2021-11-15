@@ -23,7 +23,7 @@ public class MajorityElementTest {
     @Test
     public void shouldReturnMinusFive() {
         // Given
-        int[] nums = { -5, -5, -5, -5, 1, 5, 5, 5, 5, -5 };
+        int[] nums = { -5, -5, -5, -5, 1, 5, 5, -5, 5, 5, -5 };
 
         // When
         int expectedValue = -5;
@@ -38,7 +38,7 @@ public class MajorityElementTest {
     @Test
     public void shouldReturnTen() {
         // Given
-        int[] nums = { 1, 1, 1, 10, 10, 10, 3, 10, 1, 10 };
+        int[] nums = { 1, 1, 1, 10, 10, 10, 10, 3, 10, 1, 10 };
 
         // When
         int expectedValue = 10;
