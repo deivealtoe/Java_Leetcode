@@ -18,7 +18,11 @@
 - ##### [Build Array from Permutation](src/main/java/build_array_from_permutation) - [Tests](src/test/java/build_array_from_permutation/BuildArrayFromPermutationTest.java)
 
 <br />
-<br />
-<br />
+
+<div style="width: 500px; margin: auto;">
 
 ![](images/junit5.png)
+
+![](images/leetcode.png)
+
+</div>
