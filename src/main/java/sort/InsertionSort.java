@@ -3,7 +3,7 @@ package sort;
 public class InsertionSort implements SortingAlgorithm {
 
     public int[] getSortedArray(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {
             int candidatePosition = i;
 
             while (candidatePosition > 0 && nums[candidatePosition] < nums[candidatePosition - 1]) {
