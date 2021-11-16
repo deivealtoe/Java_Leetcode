@@ -3,7 +3,7 @@ package sort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SortingTest {
+public class InsertionSortingTest {
 
     @Test
     public void shouldReturn123() {
@@ -14,8 +14,8 @@ public class SortingTest {
         int[] expectedArray = { 1, 2, 3 };
 
         // Then
-        SelectionSort selectionSort = new SelectionSort();
-        int[] actualArray = selectionSort.getSortedArray(nums);
+        InsertionSort insertionSort = new InsertionSort();
+        int[] actualArray = insertionSort.getSortedArray(nums);
 
         Assertions.assertArrayEquals(expectedArray, actualArray);
     }
@@ -29,8 +29,8 @@ public class SortingTest {
         int[] expectedArray = { 0, 1, 2 };
 
         // Then
-        SelectionSort selectionSort = new SelectionSort();
-        int[] actualArray = selectionSort.getSortedArray(nums);
+        InsertionSort insertionSort = new InsertionSort();
+        int[] actualArray = insertionSort.getSortedArray(nums);
 
         Assertions.assertArrayEquals(expectedArray, actualArray);
     }
@@ -44,8 +44,8 @@ public class SortingTest {
         int[] expectedArray = { 0, 1, 2, 3 };
 
         // Then
-        SelectionSort selectionSort = new SelectionSort();
-        int[] actualArray = selectionSort.getSortedArray(nums);
+        InsertionSort insertionSort = new InsertionSort();
+        int[] actualArray = insertionSort.getSortedArray(nums);
 
         Assertions.assertArrayEquals(expectedArray, actualArray);
     }
