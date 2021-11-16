@@ -4,20 +4,26 @@ public class SelectionSort {
 
     public int[] getSortedArray(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            int initialPosition = i;
+            int positionOfLowestValue = i;
 
-            for (int j = i; j < nums.length; j++) {
-                if (nums[j] < nums[initialPosition]) {
-                    initialPosition = j;
-                }
-            }
+            positionOfLowestValue = this.getPositionOfLowestValue(nums, i);
 
-            int temp = nums[initialPosition];
-            nums[initialPosition] = nums[i];
+            int temp = nums[positionOfLowestValue];
+            nums[positionOfLowestValue] = nums[i];
             nums[i] = temp;
         }
 
         return nums;
+    }
+
+    public int getPositionOfLowestValue(int[] nums, int positionOfLowestValue) {
+        for (int j = positionOfLowestValue; j < nums.length; j++) {
+            if (nums[j] < nums[positionOfLowestValue]) {
+                positionOfLowestValue = j;
+            }
+        }
+
+        return positionOfLowestValue;
     }
 
 }
