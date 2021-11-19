@@ -53,4 +53,16 @@ public class ValidPalindromeTest {
         Assertions.assertFalse(actual);
     }
 
+    @Test
+    public void shouldReturnTruThree() {
+        // Given
+        String s = "";
+
+        // Then
+        ValidPalindrome validPalindrome = new ValidPalindrome();
+        boolean actual = validPalindrome.isValidPalindrome(s);
+
+        Assertions.assertTrue(actual);
+    }
+
 }
