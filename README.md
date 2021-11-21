@@ -19,6 +19,7 @@
 - ##### [Single Number](src/main/java/single_number) - [Tests](src/test/java/single_number/SingleNumberTest.java)
 - ##### [Majority Element](src/main/java/majority_element) - [Tests](src/test/java/majority_element/MajorityElementTest.java)
 - ##### [Build Array from Permutation](src/main/java/build_array_from_permutation) - [Tests](src/test/java/build_array_from_permutation/BuildArrayFromPermutationTest.java)
+- ##### [Concatenation of Array](src/main/java/concatenation_of_araray) - [Tests](src/test/java/concatenation_of_array/ConcatenationOfArrayTest.java)
 
 <br />
 
