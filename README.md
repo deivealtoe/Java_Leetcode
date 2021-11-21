@@ -20,6 +20,8 @@
 - ##### [Majority Element](src/main/java/majority_element) - [Tests](src/test/java/majority_element/MajorityElementTest.java)
 - ##### [Build Array from Permutation](src/main/java/build_array_from_permutation) - [Tests](src/test/java/build_array_from_permutation/BuildArrayFromPermutationTest.java)
 - ##### [Concatenation of Array](src/main/java/concatenation_of_araray) - [Tests](src/test/java/concatenation_of_array/ConcatenationOfArrayTest.java)
+- ##### [Sum of 1d Array](src/main/java/running_sum_of_1d_array) - [Tests](src/test/java/running_sum_of_1d_array/RunningSumOf1dArrayTest.java)
+- ##### [Shuffle String](src/main/java/shuffle_string) - [Tests](src/test/java/shuffle_string/ShuffleStringTest.java)
 
 <br />
 
